@@ -1,8 +1,9 @@
 import sys
 import time
+from asyncore import loop
 
 from util.HwndList import get
-from explore.py.Loop import loop
+
 
 def main():
     print("欢迎来到阴阳师联盟！")

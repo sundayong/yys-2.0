@@ -15,7 +15,7 @@ from util.MatchImg import matchImg
 def shower_job(remberTime):
     print("洗澡线程开始执行......")
     print("Start : %s" % time.ctime())
-    loop_1(hwnd)
+    loop_2(hwnd)
     print("End : %s" % time.ctime())
 
 

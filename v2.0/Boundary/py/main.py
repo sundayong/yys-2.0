@@ -6,6 +6,10 @@ from util.HwndList import get
 
 def main():
     print("欢迎来到阴阳师联盟！")
+
+    #  X = 1009.0
+    # global Y = 604.0
+
     arg = 0
     tt = 1
     if sys.argv.__len__() > 1:  #多人组队
@@ -14,6 +18,7 @@ def main():
         tt = 1
     #获取所有阴阳师句柄
     list = get()
+
     while True:
         time.sleep(tt)  # 设置隔2秒运行一次
 

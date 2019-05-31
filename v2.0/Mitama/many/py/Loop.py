@@ -5,6 +5,10 @@ from util import WindowCapture
 from util.MatchImg import matchImg
 from util.Cursor import click_it
 
+##########################################################
+# 1 开始三人组队， 默认 0 两人
+A = 0
+##########################################################
 
 def loop(hwnd):
     baseImg = "../images/blackground.jpg"  # 储存的文件名  # 储存的文件名
@@ -22,6 +26,16 @@ def loop(hwnd):
         else:
             x = rect[0] + res["result"][0]
             y = rect[1] + res["result"][1]
+
+        #处理三人多开
+        #print(A)
+        if A == 1:
+            if filename == "1.png":
+                tmpImgPath = "../images/image/plus.png"
+                res = matchImg(baseImg, tmpImgPath, 0.7)
+                if res is not None:
+                    break
+
         move_x = random.randint(int(x) - 2, int(x) + 2)
         move_y = random.randint(int(y) - 2, int(y) + 2)
         click_it((move_x, move_y), hwnd)

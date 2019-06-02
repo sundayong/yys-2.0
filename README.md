@@ -16,6 +16,8 @@
     5.Islands 离岛活动（结束了）
     
     6.Boundary 结界突破 
+    
+    7.haizhilv 海之旅活动
 
 三 安装环境
     

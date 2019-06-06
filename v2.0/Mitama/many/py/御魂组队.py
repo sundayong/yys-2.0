@@ -7,7 +7,7 @@ from util.HwndList import get
 def main():
     print("欢迎来到阴阳师联盟！")
     arg = 0
-    tt = 2
+    tt = 1
     # if sys.argv.__len__() > 1:  #多人组队
     #     arg = sys.argv[1]
     # else:
@@ -16,7 +16,7 @@ def main():
     list = get()
 
     while True:
-        #time.sleep(tt)  # 设置隔2秒运行一次
+        time.sleep(tt)  # 设置隔2秒运行一次
 
         #循环所有句柄
         for hd in list:
@@ -24,7 +24,6 @@ def main():
 
 if __name__=="__main__":
     main()
-
 
 
 

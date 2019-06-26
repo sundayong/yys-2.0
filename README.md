@@ -18,6 +18,11 @@
     6.Boundary 结界突破 
     
     7.haizhilv 海之旅活动
+    
+    8.SuperGhostKing 超鬼王 
+        
+        a.单刷魂十（或其他层）的阵容
+        b.稳定刷鬼王的阵容
 
 三 安装环境(如果有需要详细安装环境步骤，请留言，我会在后边更新，pywin32，numpy,opencv-python)
     

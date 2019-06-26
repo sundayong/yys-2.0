@@ -13,4 +13,8 @@ def get():
         if t is not "":
             if t == '阴阳师-网易游戏':
                 list.append(h)
+                print(h)
     return list;
+
+if __name__ == '__main__':
+    get()

@@ -29,3 +29,6 @@ def window_capture(filename, hd):
     saveBitMap.SaveBitmapFile(saveDC, filename)
     win32gui.DeleteObject(saveBitMap.GetHandle())
     saveDC.DeleteDC()
+
+if __name__ == '__main__':
+    window_capture("123.jpg", 197616)

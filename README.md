@@ -19,7 +19,7 @@
     
     7.haizhilv 海之旅活动
     
-    8.SuperGhostKing 超鬼王 
+    8.SuperGhostKing 超鬼王 (已支持24小时挂机)
         
         a.单刷觉醒十层（或其他层）的阵容
         b.稳定刷鬼王的阵容

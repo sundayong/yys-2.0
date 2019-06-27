@@ -21,7 +21,9 @@ def loop(hwnd):
         print(filename)
         #疲劳值满之后，暂停100分钟
         if filename == "end.png":
+            print("进入休眠....")
             time.sleep(6000)
+            print("休眠完成，继续...")
             x1 = rect[0] + 837
             y1 = rect[1] + 207
             move_x1 = random.randint(int(x1) - 2, int(x1) + 2)

@@ -1,5 +1,6 @@
 import os
 import random
+import time
 import win32gui
 from util import WindowCapture
 from util.MatchImg import matchImg
@@ -18,6 +19,14 @@ def loop(hwnd):
         if res is None:
             continue
         print(filename)
+        #疲劳值满之后，暂停100分钟
+        if filename == "end.png":
+            time.sleep(6000)
+            x1 = rect[0] + 837
+            y1 = rect[1] + 207
+            move_x1 = random.randint(int(x1) - 2, int(x1) + 2)
+            move_y1 = random.randint(int(y1) - 2, int(y1) + 2)
+            click_it((move_x1, move_y1), hwnd)
         if filename == "00.png":
             print("发现鬼王.......")
             x1 = rect[0] + 938

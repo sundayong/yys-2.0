@@ -31,4 +31,4 @@ def window_capture(filename, hd):
     saveDC.DeleteDC()
 
 if __name__ == '__main__':
-    window_capture("123.jpg", 197616)
+    window_capture("123.jpg", 592448)

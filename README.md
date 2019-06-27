@@ -24,7 +24,7 @@
         a.单刷觉醒十层（或其他层）的阵容
         b.稳定刷鬼王的阵容
 
-三 安装环境(如果有需要详细安装环境步骤，请留言，我会在后边更新，pywin32，numpy,opencv-python)
+三 安装环境(如果有需要详细安装环境步骤，请留言，我会在后边更新，下载pycharm并激活，pywin32，numpy,opencv-python)
     
     1.脚本用python实现，所以请安装配置python基本环境即可，推荐win10+python最新版本
     

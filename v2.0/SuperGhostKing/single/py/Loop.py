@@ -22,7 +22,7 @@ def loop(hwnd):
         #疲劳值满之后，暂停100分钟
         if filename == "end.png":
             print("进入休眠....")
-            time.sleep(6000)
+            time.sleep(1800)
             print("休眠完成，继续...")
             x1 = rect[0] + 837
             y1 = rect[1] + 207

@@ -8,7 +8,7 @@ from util.HwndList import get
 def main():
     print("欢迎来到阴阳师联盟！")
     arg = 0
-    tt = 3
+    tt = 2
     # if sys.argv.__len__() > 1:  #多人组队
     #     arg = sys.argv[1]
     # else:

@@ -25,9 +25,18 @@
         a.单刷觉醒十层（或其他层）的阵容
         b.稳定刷鬼王的阵容
 
-三 安装环境(如果有需要详细安装环境步骤，请留言，我会在后边更新，下载pycharm并激活，pywin32，numpy,opencv-python)
+三 安装环境(如果有需要详细安装环境步骤，请留言，我会在后边更新，下载pycharm并激活)
     
     1.脚本用python实现，所以请安装配置python基本环境即可，推荐win10+python最新版本
+    
+        a.下载python https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe 并安装
+        b.安装依赖包 在cmd中执行 
+            python -m pip install --upgrade pip
+            pip install pywin32 -i https://pypi.tuna.tsinghua.edu.cn/simple
+            pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+            pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+            pip install aircv -i https://pypi.tuna.tsinghua.edu.cn/simple
+        
     
     2.其它插件可以看缺哪个按哪个，有疑问请私信我
     

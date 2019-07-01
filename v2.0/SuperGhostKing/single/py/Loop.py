@@ -8,6 +8,7 @@ from util.Cursor import click_it
 
 
 def loop(hwnd):
+    print("线程："+hwnd+"开始执行...")
     baseImg = "../images/blackground.jpg"  # 储存的文件名  # 储存的文件名
     rect = win32gui.GetWindowRect(hwnd)
     WindowCapture.window_capture(baseImg, hwnd)  # 对整个屏幕截图，并保存截图为baseImg

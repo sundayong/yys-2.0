@@ -11,7 +11,7 @@ def main():
     # global Y = 604.0
 
     arg = 0
-    tt = 1
+    tt = 5
     if sys.argv.__len__() > 1:  #多人组队
         arg = sys.argv[1]
     else:

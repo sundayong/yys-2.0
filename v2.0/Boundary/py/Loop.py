@@ -1,10 +1,12 @@
 import os
 import random
+import time
 import win32gui
 
 from util import WindowCapture
 from util.MatchImg import matchImg
 from util.Cursor import click_it
+
 
 def loop(hwnd):
     baseImg = "../images/blackground.jpg"  # 储存的文件名  # 储存的文件名
@@ -27,11 +29,15 @@ def loop(hwnd):
         if filename == "reward.png" or filename == "finded.png":
             x = rect[0] + 20
             y = rect[1] + 560
+        # elif filename == "000sleep.png":
+        #     print("休眠。。。" + time.ctime())
+        #     time.sleep(3000)
+        #     continue
         else:
             x = rect[0] + res["result"][0]
             y = rect[1] + res["result"][1]
         move_x = random.randint(int(x) - 2, int(x) + 2)
         move_y = random.randint(int(y) - 2, int(y) + 2)
         click_it((move_x, move_y), hwnd)
-        if filename == "3.png" or filename == "4.png" or filename == "5.png" or filename == "6.png" or filename == "1.png" :
+        if filename == "3.png" or filename == "4.png" or filename == "5.png" or filename == "6.png" or filename == "1.png":
             break
